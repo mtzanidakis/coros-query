@@ -31,7 +31,7 @@ jobs:
         with:
           go-version: '1.26.1'
 
-      - uses: goreleaser/goreleaser-action@v6
+      - uses: goreleaser/goreleaser-action@v7
         with:
           args: release --clean
         env:
